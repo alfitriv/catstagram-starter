@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0BC2D76D-2F24-4573-B23B-6AF728EA4AB1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0BC2D76D-2F24-4573-B23B-6AF728EA4AB1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Catstagram-starter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Catstagram-starter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Catstagram-starter</string>
+			<key>timeStartedRecording</key>
+			<real>627661595.09985805</real>
+			<key>timeStoppedRecording</key>
+			<real>627662646.31660295</real>
+			<key>title</key>
+			<string>Run Catstagram-starter</string>
+			<key>uniqueIdentifier</key>
+			<string>0BC2D76D-2F24-4573-B23B-6AF728EA4AB1</string>
+		</dict>
 		<key>655BA442-7AC5-4F02-8576-7F95A358EA22</key>
 		<dict>
 			<key>className</key>
