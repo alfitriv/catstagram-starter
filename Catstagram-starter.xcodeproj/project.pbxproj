@@ -16,6 +16,9 @@
 		38A04A332569571200591FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A04A312569571200591FBB /* LaunchScreen.storyboard */; };
 		38A04A3C2569574C00591FBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38A04A3B2569574C00591FBB /* GoogleService-Info.plist */; };
 		38A04A5C256A001000591FBB /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = 38A04A5B256A000F00591FBB /* feed.json */; };
+		38A04A62256A158800591FBB /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A04A61256A158800591FBB /* PostView.swift */; };
+		38A04A65256A167F00591FBB /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A04A64256A167F00591FBB /* ImageLoader.swift */; };
+		38A04A69256A18B200591FBB /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A04A68256A18B100591FBB /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		38A04A342569571200591FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A04A3B2569574C00591FBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38A04A5B256A000F00591FBB /* feed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		38A04A61256A158800591FBB /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		38A04A64256A167F00591FBB /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		38A04A68256A18B100591FBB /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		62ED1BBB0AD347689102F188 /* Pods_Catstagram_starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram_starter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A653A877DCF8C03C41E511C3 /* Pods-Catstagram-starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram-starter.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram-starter/Pods-Catstagram-starter.debug.xcconfig"; sourceTree = "<group>"; };
 		C40394BC4BB4F0321EDF2E5A /* Pods-Catstagram-starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram-starter.release.xcconfig"; path = "Target Support Files/Pods-Catstagram-starter/Pods-Catstagram-starter.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 		38A04A252569571000591FBB /* Catstagram-starter */ = {
 			isa = PBXGroup;
 			children = (
+				38A04A67256A189E00591FBB /* Models */,
 				38A04A5F256A002200591FBB /* Bindings */,
 				38A04A5E256A001B00591FBB /* Views */,
 				38A04A5A2569FFFE00591FBB /* Resources */,
@@ -109,6 +116,7 @@
 		38A04A5E256A001B00591FBB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				38A04A61256A158800591FBB /* PostView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,8 +124,17 @@
 		38A04A5F256A002200591FBB /* Bindings */ = {
 			isa = PBXGroup;
 			children = (
+				38A04A64256A167F00591FBB /* ImageLoader.swift */,
 			);
 			path = Bindings;
+			sourceTree = "<group>";
+		};
+		38A04A67256A189E00591FBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38A04A68256A18B100591FBB /* Feed.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FC1B74061A234A5D20D6A98E /* Pods */ = {
@@ -246,7 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A04A272569571000591FBB /* AppDelegate.swift in Sources */,
+				38A04A69256A18B200591FBB /* Feed.swift in Sources */,
 				38A04A292569571000591FBB /* SceneDelegate.swift in Sources */,
+				38A04A65256A167F00591FBB /* ImageLoader.swift in Sources */,
+				38A04A62256A158800591FBB /* PostView.swift in Sources */,
 				38A04A2B2569571000591FBB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

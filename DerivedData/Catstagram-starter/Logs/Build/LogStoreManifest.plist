@@ -142,6 +142,74 @@
 			<key>uniqueIdentifier</key>
 			<string>5316529A-F44B-4595-B893-6CACAFB0FCB2</string>
 		</dict>
+		<key>7B77D439-E522-424C-B55E-2AE2128CB40D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7B77D439-E522-424C-B55E-2AE2128CB40D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Catstagram-starter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Catstagram-starter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Catstagram-starter</string>
+			<key>timeStartedRecording</key>
+			<real>627704293.127406</real>
+			<key>timeStoppedRecording</key>
+			<real>627704298.96425605</real>
+			<key>title</key>
+			<string>Build for Previews Catstagram-starter</string>
+			<key>uniqueIdentifier</key>
+			<string>7B77D439-E522-424C-B55E-2AE2128CB40D</string>
+		</dict>
+		<key>C8F2DF7F-A098-4F92-B97A-9B67BD2643C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C8F2DF7F-A098-4F92-B97A-9B67BD2643C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Catstagram-starter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Catstagram-starter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Catstagram-starter</string>
+			<key>timeStartedRecording</key>
+			<real>627709331.747545</real>
+			<key>timeStoppedRecording</key>
+			<real>627709335.55897105</real>
+			<key>title</key>
+			<string>Build for Previews Catstagram-starter</string>
+			<key>uniqueIdentifier</key>
+			<string>C8F2DF7F-A098-4F92-B97A-9B67BD2643C4</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
